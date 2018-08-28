@@ -69,8 +69,8 @@ h1, h2, h3, h4, h5 {
   box-sizing: border-box;
 }
 .container {
-  border: solid black 2px;
-  background: lightgray;
+  margin: 0 auto;
+  padding: 50px;
 }
 
 
@@ -82,12 +82,12 @@ h1, h2, h3, h4, h5 {
   border: 2px black solid;
   font-size: 24px;
   text-align: center;
+  margin-left: 50px;
 }
 .button p {
   padding: 7px;
 }
 .logo {
-  border: 3px black dotted;
 
 }
 h1 {
@@ -99,11 +99,9 @@ p {
 }
 .dividing-line {
   height: 2px;
-  width: 100%;
   background: black;
 }
 .fixed-nav {
-  border: solid red 3px;
   /* position: fixed; */
   width: 100%;
   padding: 20px;
@@ -112,7 +110,6 @@ p {
 }
 
 header {
-  border: dashed green 3px;
   width: 100%;
   position: relative;
   margin: 0 auto;
@@ -141,51 +138,68 @@ header .logo {
 }
 
 .upper-section {
-  border: yellow dotted 5px;
+  width: 100%;
   padding: 50px;
 }
 
 .mid-page-accent {
-  padding: 50px;
+  /* trbl */
+  margin: 0 100px 0 100px;
 }
 
 .lower-section {
-  border: dotted white 7px;
   padding: 50px;
 }
 
 .slogan-button {
-  border: dotted blue 4px;
   display: inline-block;
   text-align: center;
   margin-right: 50px;
 }
 
 .circle-image {
-  border: dotted black 3px;
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 300px;
 }
 
  .features {
+  width: 45%;
+  margin-right: 35px;
   display: inline-block;
-  border: red dotted 5px;
+  line-height: 35px;
 }
 
 .about {
+  width: 45%;
+  margin-left: 35px;
   display: inline-block;
-  border: green dotted 5px;
+  line-height: 35px;
 }
 .vision {
-  border: red dotted 5px;
+  width: 30%;
+
+  /*border: red dotted 5px;*/
   display: inline-block;
+  line-height: 35px;
 }
 .product {
-  border: red dotted 5px;
+  width: 30%;
+  /*border: red dotted 5px;*/
   display: inline-block;
+  line-height: 35px;
 }
 .services {
-  border: red dotted 5px;
+  width: 30%;
+  /* border: red dotted 5px; */
   display: inline-block;
+  line-height: 35px;
+}
+footer {
+  line-height: 20px;
+  font-size: 18px;
+}
+
+footer .copyright {
+  text-align: center;
 }
 
