@@ -86,3 +86,13 @@ footer {
   border: 2px black solid;
 }
 
+.logo {
+  border: 3px black dotted;
+
+}
+h1 {
+  font-size: 20px;
+}
+ .banner h1 {
+  font-size: 96px;
+}
