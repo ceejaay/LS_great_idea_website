@@ -141,6 +141,7 @@ header .logo {
 }
 
 .upper-section {
+  border: yellow dotted 5px;
   padding: 50px;
 }
 
@@ -149,19 +150,42 @@ header .logo {
 }
 
 .lower-section {
+  border: dotted white 7px;
   padding: 50px;
 }
 
 .slogan-button {
+  border: dotted blue 4px;
   display: inline-block;
   text-align: center;
-  padding: 50px;
+  margin-right: 50px;
 }
 
-.features {
+.circle-image {
+  border: dotted black 3px;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+ .features {
+  display: inline-block;
+  border: red dotted 5px;
+}
+
+.about {
+  display: inline-block;
+  border: green dotted 5px;
+}
+.vision {
+  border: red dotted 5px;
+  display: inline-block;
+}
+.product {
+  border: red dotted 5px;
+  display: inline-block;
+}
+.services {
+  border: red dotted 5px;
   display: inline-block;
 }
 
-.upper-section .about {
-  display: inline-block;
-}
