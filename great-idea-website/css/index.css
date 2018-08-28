@@ -65,27 +65,27 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 /* delete the border guide info when you are done */
+* {
+  box-sizing: border-box;
+}
 .container {
   border: solid black 2px;
   background: lightgray;
 }
 
-section {
-  border: solid yellow 2px;
-}
 
-nav { 
-    border: solid red 3px;
-  }
 
-footer {
-  border: solid green 3px;
-}
 
 .button {
+  height: 39px;
+  width: 250px;
   border: 2px black solid;
+  font-size: 24px;
+  text-align: center;
 }
-
+.button p {
+  padding: 7px;
+}
 .logo {
   border: 3px black dotted;
 
@@ -93,6 +93,75 @@ footer {
 h1 {
   font-size: 20px;
 }
- .banner h1 {
+
+p {
+  font-size: 18px;
+}
+.dividing-line {
+  height: 2px;
+  width: 100%;
+  background: black;
+}
+.fixed-nav {
+  border: solid red 3px;
+  /* position: fixed; */
+  width: 100%;
+  padding: 20px;
+  z-index: 100;
+
+}
+
+header {
+  border: dashed green 3px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+header a {
+  color: gray;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-right: 60px;
+  display: inline-block;
+}
+
+header .logo {
+  display: inline-block;
+}
+.banner {
+  padding: 50px;
+}
+.banner h1 {
   font-size: 96px;
+}
+
+.banner img {
+  display: inline-block;
+}
+
+.upper-section {
+  padding: 50px;
+}
+
+.mid-page-accent {
+  padding: 50px;
+}
+
+.lower-section {
+  padding: 50px;
+}
+
+.slogan-button {
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+}
+
+.features {
+  display: inline-block;
+}
+
+.upper-section .about {
+  display: inline-block;
 }
